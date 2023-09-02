@@ -16,11 +16,6 @@ If any of these checks fail, the game must end with Error\n followed by a custom
 
 The goal is for the player(s) to collect all the collectibles on the map before going to an exit in the least possible number of steps
 
-## Algorithm
-
-For the stacks with size less than 6 I wrote a simple bubble sort algorithm which.
-For the stacks with size longer than 6, I used a combination of the insertion sort algorithm and the shellsort algorithm. I first move the numbers thar were already sorted from stack a to b. After that, I evaluate the number of movements requiered to place every single number that remains in the stack a to b and I choose the option that requieres less number of movements.
-
 ## How to use it  
 
 ### Cloning the repositories  
