@@ -16,7 +16,7 @@ If any of these checks fail, the game must end with Error\n followed by a custom
 
 The goal is for the player(s) to collect all the collectibles on the map before going to an exit in the least possible number of steps
 
-## How to use it  
+## Instructions  
 
 ### Cloning the repositories  
 #### Mandatory
@@ -25,10 +25,10 @@ git clone https://github.com/proche-c/so_long.git
 cd so_long_mandatory
 make
 ```
-#### Mandatory
+#### Bonus
 ```shell
 git clone https://github.com/proche-c/so_long.git
-cd so_long_mandatory
+cd so_long_bonus
 make
 ```
 ### Installing the MLX library
